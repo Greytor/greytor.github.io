@@ -152,7 +152,7 @@ params:
     content: |-
       Soy un estudiante de Ingeniería en Mecatrónica en [ESPOL](https://www.espol.edu.ec/es)  con pasión por el desarrollo de proyectos tecnológicos. Me encanta el trabajo colaborativo e interdisciplinario, donde la gestión del talento es esencial para lograr grandes objetivos. Me interesa la educación, por lo que me gusta involucrarme en voluntariado y en proyectos con impacto social.
 
-      Actualmente me encuentro en 10mo semestre y me desempeño como presidente del [Club de Mecatrónica - ESPOL](https://www.instagram.com/club_mecatronica_espol/?hl=es).
+      Actualmente me encuentro en décimo semestre y me desempeño como presidente del [Club de Mecatrónica - ESPOL](https://www.instagram.com/club_mecatronica_espol/?hl=es).
     skills:
       enable: true
       title: "Algunas tecnologías con las que he trabajado ultimamente:"
@@ -233,7 +233,7 @@ params:
   # Education
   education:
     enable: true
-    # title: "Formación Académica"
+    title: "Formación Académica"
     index: false
     items:
       
