@@ -1,6 +1,6 @@
 baseURL: "https://greytor.github.io/"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "José Desiderio"
 theme: hugo-profile
 
 outputs:
@@ -23,17 +23,17 @@ markup:
       unsafe: true
 
 Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
+#  main:
+#    - identifier: blog
+#      name: Blog
+#      title: Blog posts
+#      url: /blogs
+#      weight: 1
+#    - identifier: gallery
+#      name: Gallery
+#      title: Blog posts
+#      url: /gallery
+#      weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -55,8 +55,8 @@ Menus:
 params:
   title: "José Desiderio"
   description: Portfolio web de José Desiderio
-  # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  #staticPath: ""  # The path to serve the static files from
+  favicon: "logoJD.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -100,11 +100,11 @@ params:
 
   # If you want to customize the menu, you can change it here
   navbar:
-    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto static\images\logo.png
+    brandLogo: "logoJD.png" # Logo for the brand | default is the favicon variable
+    showBrandLogo: true # Show brand logo in nav bar | default is true
     brandName: "JD" # Brand name for the brand | default is the title variable
-    disableSearch: false
+    disableSearch: true
     # searchPlaceholder: "Search"
     menus:
       disableAbout: false
@@ -119,8 +119,8 @@ params:
     enable: true
     intro: "Hola, mi nombre es "
     title: "José Desiderio."
-    subtitle: "Ingeniero en Mecatrónica"
-    content: Me dedico a proveer soluciones tecnológicas integrales. Desde diseño electrónico hasta desarrollo web, aprovecho las últimas tendencias tecnológicas para crear productos innovadores y funcionales que impulsan la eficiencia y la excelencia en cada proyecto.
+    subtitle: "Ingeniería en Mecatrónica"
+    content: Desde diseño electrónico hasta desarrollo web, aprovecho las últimas tendencias tecnológicas para ofrecer soluciones que impulsan la eficiencia y la excelencia en cada proyecto.
     image: /images/JD.svg
     bottomImage:
       enable: true
@@ -150,9 +150,9 @@ params:
     title: "Sobre mi"
     image: "/images/foto_cuadrado.jpg"
     content: |-
-      Soy un ingeniero en Mecatrónica graduado en [ESPOL](https://www.espol.edu.ec/es)  con pasión por el desarrollo de proyectos tecnológicos. Me encanta el trabajo colaborativo e interdisciplinario, donde la gestión del talento es esencial para lograr grandes objetivos. Me interesa la educación, por lo que me gusta involucrarme en voluntariado y en proyectos con impacto social.
+      Soy un estudiante de Ingeniería en Mecatrónica en [ESPOL](https://www.espol.edu.ec/es)  con pasión por el desarrollo de proyectos tecnológicos. Me encanta el trabajo colaborativo e interdisciplinario, donde la gestión del talento es esencial para lograr grandes objetivos. Me interesa la educación, por lo que me gusta involucrarme en voluntariado y en proyectos con impacto social.
 
-      Actualmente me desempeño como presidente del [Club de Mecatrónica - ESPOL](https://www.instagram.com/club_mecatronica_espol/?hl=es).
+      Actualmente me encuentro en 10mo semestre y me desempeño como presidente del [Club de Mecatrónica - ESPOL](https://www.instagram.com/club_mecatronica_espol/?hl=es).
     skills:
       enable: true
       title: "Algunas tecnologías con las que he trabajado ultimamente:"
@@ -293,47 +293,56 @@ params:
         content: Diseño de un sistema de monitoreo comprendido por un nodo sensor con Arduino y un gateway con Raspberry PI usando comunicación LoRa.
         image: /images/plantv.jpg
         featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+          name: Código Nodo Sensor
+          link: https://github.com/Greytor/PlanTV
         badges:
           - "IOT"
           - "Arduino"
           - "Raspberry Pi"
           - "LoRa"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+          - icon: fab fa-youtube
+            url: https://www.youtube.com/watch?v=njEDJNfYIOc&ab_channel=PolyTech
+          - icon: fab fa-youtube
+            url: https://youtu.be/3kEJUZQ3eEA
+          - icon: fab fa-youtube
+            url: https://youtu.be/wDWMjqq7Cac
+          - icon: fab fa-youtube
+            url: https://youtu.be/V4qNkOADKx0
+
+            
 
       - title: Diseño de invernadero con tubos PVC
         content: Diseño económico y replicable de invernadero utilizando OnShape, para implementación de un sistema de control de cultivos.
         image: /images/invernadero.png
         featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
+          name: Visualización en OnShape
+          link: https://cad.onshape.com/documents/12ce92ba21c837ff8547d7f4/w/3c6e27bddb426bcaeb2f0e58/e/1775a2ed8fe65a4cab8783a1?renderMode=0&uiState=650a3af75c8a6c45949357c4
         badges:
           - "CAD"
           - "OnShape"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+        #links:
+        #  - icon: fab fa-github
+        #    url: https://github.com/gurusabarish/converter
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
+      - title: Aplicación GardenAssistant para monitoreo de cultivos
+        content: Aplicación dedicada al cuidado de cultivos. Incluye funcionalidades para crear cuenta con validaciones, añadir cultivos y simular mediciones. Se planea integrar funcionalidad con el sistema de monitoreo agrícola PlanTV.
+        image: /images/app.png
         featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+          name: Documentación
+          link: https://espolec-my.sharepoint.com/:b:/g/personal/jdesider_espol_edu_ec/Ecuwh15hUORBmZK-cRx4rioB3mvoSwGjgLuWpZYxydWUag?e=eKbBIP
+        featured:
+          name: Diseño Figma
+          link: https://www.figma.com/file/6j9FANayIIqqIQfJq5E33T/gardenAssistant?type=design&node-id=0-1&mode=design
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Diseño de apps"
+          - "Kotlin"
+          - "JavaScript"
+          - "Figma"
+          - "Overleaf"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/Greytor/GardenAssistant/tree/main
 
   #Contact
   contact:
