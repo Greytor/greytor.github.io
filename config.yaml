@@ -242,7 +242,7 @@ params:
           name: "Escuela Superior Politécnica del Litoral"
           url: "https://www.espol.edu.ec/es"
         date: "2019 - actualidad"
-        GPA: "8.41/10"
+        
         content: |-
           He sido ayudante de docencia en las materías de:
           - Introducción a la Mecatrónica
@@ -260,7 +260,7 @@ params:
           name: "Colegio Cristóbal Colón"
           url: "https://www.cristobalcolon.edu.ec/"
         date: "2016 - 2019"
-        GPA: "9.35/10"
+        
 
   # Achievements
 #  achievements:
