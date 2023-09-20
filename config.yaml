@@ -331,9 +331,6 @@ params:
         featured:
           name: Documentación
           link: https://espolec-my.sharepoint.com/:b:/g/personal/jdesider_espol_edu_ec/Ecuwh15hUORBmZK-cRx4rioB3mvoSwGjgLuWpZYxydWUag?e=eKbBIP
-        featured:
-          name: Diseño Figma
-          link: https://www.figma.com/file/6j9FANayIIqqIQfJq5E33T/gardenAssistant?type=design&node-id=0-1&mode=design
         badges:
           - "Diseño de apps"
           - "Kotlin"
@@ -343,6 +340,9 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/Greytor/GardenAssistant/tree/main
+        links:
+          - icon: fab fa-figma
+            url: https://www.figma.com/file/6j9FANayIIqqIQfJq5E33T/gardenAssistant?type=design&node-id=0-1&mode=design
 
   #Contact
   contact:
